@@ -1,0 +1,62 @@
+*{
+    box-sizing: border-box;
+}
+body{ 
+    margin: 0;
+    padding: 0;
+    background-color: black;
+  
+}
+
+.fondo{
+    width: 1200px;
+    background-position:fixed;
+
+
+}
+
+
+h1{
+    color: yellow;
+    text-align: center;
+}
+.caja{
+    display: flex;
+    border: 2px solid blue;
+    height: 1500px;
+    
+    
+}
+
+.pacman{
+position: relative;
+animation: par 8s infinite;
+text-align: left;
+}
+
+@keyframes par{
+    0%   {top: 0px; left: 0px; }
+    10%  {top: 0px; left: 1200px;}
+    15% {top: 100px; left: 1200px; }
+    20%  {top: 100px; left: 0px;}
+    25%  {top: 200px; left: 0px;}
+    30%  {top: 200px; left: 1200px;}
+    35%  {top: 300px; left: 1200px;}
+    40%  {top: 300px; left: 0px;}
+    45%  {top: 400px; left: 0px;}
+    50%  {top: 400px; left: 1200px;}
+    55%  {top: 500px; left: 1200px;}
+    60%  {top: 500px; left: 0px;}
+    65%  {top: 600px; left: 0px;}
+    70%  {top: 600px; left: 1200px;}
+    75%  {top: 700px; left: 1200px;}
+    80%  {top: 700px; left: 0px;}
+    85%  {top: 800px; left: 0px;}
+    90%  {top: 800px; left: 1200px;}
+    95%  {top: 900px; left: 1200px;}
+    100% {top: 900px; left: 0px;}
+    
+   
+    
+
+}
